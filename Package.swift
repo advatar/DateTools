@@ -9,4 +9,4 @@ let package = Package(
     ],
     //exclude : ["DateTools", "Examples", "Tests", "DateToolsSwift/Examples"]
 )
-package.exclude = ["DateTools", "Examples", "Tests", "DateToolsSwift/Examples"]
+//package.exclude = ["DateTools", "Examples", "Tests", "DateToolsSwift/Examples"]
