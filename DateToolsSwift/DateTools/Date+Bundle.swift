@@ -11,9 +11,6 @@ import Foundation
 public extension Bundle {
   
   class func dateToolsBundle() -> Bundle {
-    let assetPath = Bundle(for: Constants.self).resourcePath!
-    let bundlePath = NSString(string: assetPath).appendingPathComponent("DateTools.bundle")
-      print("bundlePath \(bundlePath)")
       return Bundle(for: Bundle.self)
   }
 }
